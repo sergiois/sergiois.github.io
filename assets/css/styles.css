@@ -12,6 +12,9 @@ body {
 .container {
   width: 100%;
 }
+.container.min{
+  max-width: 1170px;
+}
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
@@ -936,13 +939,13 @@ select {
 }
 /* ===== Promo block ===== */
 .promo-block {
-  background: #3aa7aa;
+  background: #04aeda;
 }
 .body-green .promo-block {
   background: #63b971;
 }
 .body-blue .promo-block {
-  background: #41b2ec;
+  background: #04aeda;
 }
 .body-orange .promo-block {
   background: #f77e17;
@@ -982,7 +985,6 @@ select {
 }
 .promo-block .figure-holder-inner {
   background: #fff;
-  margin-bottom: 30px;
   position: relative;
   text-align: center;
 }
@@ -1012,7 +1014,7 @@ select {
   margin-top: -21px;
 }
 .promo-block .figure-holder-inner .mask .icon.pink {
-  color: #EA5395;
+  color: #04aeda;
 }
 .promo-block .figure-holder-inner:hover .mask {
   visibility: visible;

@@ -10,9 +10,6 @@ body {
   height: 100%;
 }
 .container {
-  width: 100%;
-}
-.container.min{
   max-width: 1170px;
 }
 .page-wrapper {
@@ -303,7 +300,7 @@ select {
 }
 /* ====== Header ====== */
 .header {
-  background: #494d55;
+  background: #083756;
   color: rgba(255, 255, 255, 0.85);
   border-top: 5px solid #04AEDA;
   padding: 30px 0;
@@ -388,7 +385,7 @@ select {
   color: #fff;
 }
 .breadcrumb > li + li:before {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(88, 187, 238, 0.6);
 }
 /* ====== Footer ====== */
 .footer {
@@ -1185,6 +1182,7 @@ select {
   background-image: url("../images/empty.gif");
   /* for IE8 */
 }
+.cards-section .item-inner.disabled,
 .cards-section .item-inner:hover {
   background: #f5f5f5;
 }
@@ -1256,6 +1254,9 @@ select {
   .cards-section .item-inner {
     padding: 30px 15px;
   }
+  .promo-block .figure-holder-inner {
+    margin-bottom: 20px;
+  }
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
@@ -1263,7 +1264,6 @@ select {
 
 /* own styles */
 .label, .badge {
-  background-color: #999;
   color: #fff;
   display: inline-block;
   font-size: 10.998px;
@@ -1274,8 +1274,8 @@ select {
   vertical-align: baseline;
   white-space: nowrap;
 }
-.label.label-warning {
-  background-color: #f0ad4e;
+.label.label-beta {
+  background-color: #999;
 }
 .trophies .badge, .badge.badge-rounded {
   border-radius: 12px;
@@ -1301,4 +1301,12 @@ span.badge-mod {
 }
 .text-white {
   color: #fff;
+}
+.btn-black, a.btn-black {
+  background: #333;
+  border: 1px solid #000;
+  color: #fff !important;
+}
+.btn-black:hover, a.btn-black:hover {
+  background: #000;
 }

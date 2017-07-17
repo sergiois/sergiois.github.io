@@ -5,6 +5,7 @@
 		<description>integrate iVoox podcast into your Joomla articles</description>
 		<element>cfivoox</element>
 		<type>plugin</type>
+		<folder>fields</folder>
 		<version>1.0.2</version>
 		<client>site</client>
 		<infourl title="CF iVoox">https://sergiois.github.io/cfivoox.html</infourl>

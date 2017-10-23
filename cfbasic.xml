@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>CF Basic</name>
+		<description>Integrate Basic Field into your Joomla articles</description>
+		<element>cfbasic</element>
+		<type>plugin</type>
+		<folder>fields</folder>
+		<version>1.0.0</version>
+		<client>site</client>
+		<infourl title="CF Instagram">https://sergiois.github.io/cfbasic.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sergiois/cfbasic/archive/master.zip</downloadurl>
+		</downloads>
+        <tags>
+			<tag>stable</tag>
+		</tags>
+        <maintainer>Sergio Iglesias</maintainer>
+        <maintainerurl>https://sergioiglesias.net</maintainerurl>
+		<targetplatform name="joomla" version="3.[6789]" />
+	</update>
+</updates>

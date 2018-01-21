@@ -1289,6 +1289,9 @@ select {
   vertical-align: baseline;
   white-space: nowrap;
 }
+#versions-section .badge {
+  margin-bottom: 10px;
+}
 .label.label-beta {
   background-color: #999;
 }

@@ -274,6 +274,9 @@ select {
   /* for mobile safari */
   -webkit-appearance: none;
 }
+.filters{
+  margin-bottom: 30px;
+}
 #topcontrol {
   background: #428BCA;
   color: #fff;
@@ -1172,6 +1175,9 @@ select {
 .cards-section .item .title {
   font-size: 16px;
   font-weight: 600;
+}
+.cards-section .item .title.color-title {
+  color: #aaa!important;
 }
 .cards-section .item .intro {
   margin-bottom: 15px;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>CF Instagram</name>
+		<name>Fields - CF Instagram</name>
 		<description>integrate Instragram photo into your Joomla articles</description>
 		<element>cfinstagram</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<client>site</client>
 		<infourl title="CF Instagram">https://sergiois.github.io/cfinstagram.html</infourl>
 		<downloads>

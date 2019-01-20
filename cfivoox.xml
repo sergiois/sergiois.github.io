@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>CF iVoox</name>
+		<name>Fields - CF iVoox</name>
 		<description>integrate iVoox podcast into your Joomla articles</description>
 		<element>cfivoox</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.2</version>
+		<version>1.0.3</version>
 		<client>site</client>
 		<infourl title="CF iVoox">https://sergiois.github.io/cfivoox.html</infourl>
 		<downloads>

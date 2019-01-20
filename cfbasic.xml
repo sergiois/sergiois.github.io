@@ -6,7 +6,7 @@
 		<element>cfbasic</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<client>site</client>
 		<infourl title="CF Instagram">https://sergiois.github.io/cfbasic.html</infourl>
 		<downloads>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>CF Gist</name>
+		<name>Fields - CF Gist</name>
 		<description>Integrate Gist of GitHub into your Joomla articles</description>
 		<element>cfgist</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<client>site</client>
 		<infourl title="CF Instagram">https://sergiois.github.io/cfgist.html</infourl>
 		<downloads>

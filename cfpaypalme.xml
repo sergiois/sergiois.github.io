@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>CF PayPalMe</name>
+		<name>Fields - CF PayPalMe</name>
 		<description>Integrate PayPalMe into your Joomla articles</description>
 		<element>cfpaypalme</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<client>site</client>
 		<infourl title="CF Instagram">https://sergiois.github.io/cfpaypalme.html</infourl>
 		<downloads>

@@ -1347,3 +1347,11 @@ span.badge-cf {
   list-style: none;
   padding-left: 20px;
 }
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-flex;
+  float:none;
+  margin-right:-4px;
+}

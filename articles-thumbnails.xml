@@ -5,7 +5,7 @@
 		<description>Articles Thumbnails Module</description>
 		<element>mod_articles_thumbnails</element>
 		<type>module</type>
-		<version>1.4.4</version>
+		<version>1.5.0</version>
 		<client>site</client>
 		<infourl title="Articles Thumbnails">https://sergiois.github.io/articles-thumbnails.html</infourl>
 		<downloads>

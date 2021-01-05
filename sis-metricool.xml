@@ -6,7 +6,7 @@
 		<element>sismetricool</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<client>site</client>
 		<infourl title="SIS Theme Color">https://sergiois.github.io/sis-metricool.html</infourl>
 		<downloads>

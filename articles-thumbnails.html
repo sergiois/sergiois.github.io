@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<html lang="en"> 
 <head>
-    <title>Articles Thumbnails - Module Joomla! - Free Joomla! Extensions - Sergio Iglesias</title>
-    <meta charset="utf-8">
+	<title>Articles Thumbnails - Module Joomla! - Free Joomla! Extensions - Sergio Iglesias</title>
+	
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Module Articles Thumbnails for Joomla! Free Joomla! Extensions - Development by Sergio Iglesias">
@@ -24,21 +23,16 @@
     <meta property="twitter:url" content="https://sergiois.github.io/articles-thumbnails.html"/>
     <meta property="twitter:image" content="https://sergiois.github.io/assets/extensions/articles-thumbnails.png"/>
     <meta property="twitter:description" content="Articles Thumbnails Module show articles of Joomla in a thumbnail format. Bootstrap 2, 3 and UiKit support."/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto:100,300,300i,400,400i,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.min.css">
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
@@ -52,361 +46,339 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#428BCA">
+    <meta name="msapplication-TileColor" content="#0f6eac">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#428BCA">
-
+    <meta name="theme-color" content="#0f6eac">
 </head> 
 
-<body class="body-blue">
-    <a href="https://github.com/sergiois/mod_articles_thumbnails" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#428BCA; color:#fff; position: fixed; top: 0; border: 0; right: 0; z-index: 100000"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
-    <div class="page-wrapper">
-        <header id="header" class="header">
-            <div class="container">
-                <div class="branding">
-                    <h1 class="logo">
-                        <a href="index.html">
-                            <span class="text-highlight">sergiois</span><span class="text-bold">ext</span>
-                        </a>
-                    </h1>
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><span class="logo-text"><i class="fa fa-eye"></i> SERGIOIS<span class="text-alt">EXT</span></span></a></div>    
                 </div>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">Articles Thumbnails</li>
-                </ol>
-            </div>
-        </header>
-        <div class="doc-wrapper">
-            <div class="container">
-                <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title">
-                        <i class="icon fa fa-columns"></i> Articles Thumbnails <span title="Version" class="label label-success">v1.5.0</span>
-                    </h1>
-                    <div class="meta">
-                        <i class="fa fa-clock-o"></i> Last update: Apr 14th, 2020
-                        <div class="trophies includes">
-                            <span title="Joomla! 3.x" class="badge badge-30">3</span>
-                            <span title="Module" class="badge badge-mod">m</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="doc-body">
-                    <div class="doc-content">
-                        <div class="content-inner">
-                            <section id="description-section" class="doc-section">
-                                <h2 class="section-title">Description</h2>
-                                <div class="section-block">
-                                    <p>Articles Thumbnails Module show articles of Joomla in a thumbnail format. You can configure the module with the following options:</p>
-                                    <ul>
-                                        <li>Select Articles from a specific Category or a set of Categories. If no selection will show all categories as default.</li>
-                                        <li>Select number of articles to shown.</li>
-                                        <li>Show or hide articles designated as Featured.</li>
-                                        <li>Select frontend framework.</li>
-                                        <li>Show or hide title of articles and if you want it to have a link.</li>
-                                        <li>Show or hide publish date.</li>
-                                        <li>Show or hide content (introtext or a part of content).</li>
-                                        <li>Show or hide image of articles and if you want it to have a link.</li>
-                                        <li>Show or hide button of "Read more" and the text of de button.</li>
-                                        <li>Open link in a new window.</li>
-                                        <li>Show or hide category</li>
-                                        <li>Ordering articles by Pubish date, Title or Hits.</li>
-                                        <li>Ordering articles by Randomly.</li>
-                                        <li>Ordering articles by Order of articles.</li>
-                                        <li>Show only articles in the same category as the current article</li>
-                                        <li>Add Slide template for Bootstrap 4</li>
-                                    </ul>
-                                </div>
-                            </section>
-                            <section id="download-section" class="doc-section">
-                                <h2 class="section-title">Download</h2>
-                                <div class="section-block">
-                                    <a href="https://github.com/sergiois/mod_articles_thumbnails/archive/master.zip" class="btn btn-blue" target="_blank"><i class="fa fa-download"></i> Download<span class="hidden-xs"> Module</span></a>
-                                    <a href="https://github.com/sergiois/mod_articles_thumbnails" class="btn btn-black" target="_blank"><i class="fa fa-github"></i> <span class="hidden-xs">View on </span>GitHub</a>
-                                    <a href="https://extensions.joomla.org/extensions/extension/news-display/articles-display/articles-thumbnails/" class="btn btn-primary" target="_blank"><i class="fa fa-joomla"></i> <span class="hidden-xs">Vote in </span>JED</a>
-                                </div>
-                            </section>
-                            <section id="donate-section" class="doc-section">
-                                <h2 class="section-title">Donate</h2>
-                                <div class="section-block">
-                                    <p>All received donations will be used on open source development.</p>
-                                    <p>The price of a cup of coffe is all we need.</p>
-                                    <a href="https://www.paypal.me/sergiois/5" class="btn btn-orange" target="_blank"><i class="fa fa-paypal"></i> Donate<span class="hidden-xs"> 5€</span></a>
-                                </div>
-                            </section>
-                            <section id="versions-section" class="doc-section">
-                                <h2 class="section-title">Versions</h2>
-                                <div class="section-block">
-                                    <div id="version1_0"  class="section-block">
-                                        <h3 class="block-title">Version 1.0.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <p>Version 1.0.0 of the module is compatible with the following Frontend frameworks:</p>
-                                        <ul>
-                                            <li>Integration with <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap 2.3.2 Framework</a>. The same version on which Joomla 3.x version is based.</li>
-                                            <li>Integration with <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3 Framework</a>. The same version on which most of the Joomla Template Frameworks are based.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_1"  class="section-block">
-                                        <h3 class="block-title">Version 1.1.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <ul>
-                                            <li>Integration with <a href="https://getuikit.com/" target="_blank">UiKit Framework</a>.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_2"  class="section-block">
-                                        <h3 class="block-title">Version 1.2.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <ul>
-                                            <li>Add Update Servers: Now you will be informed from the back of Joomla when there is a new update.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_2_1"  class="section-block">
-                                        <h3 class="block-title">Version 1.2.1 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: May 25th, 2017</span>
-                                        <ul>
-                                            <li>Add show date: Now you can now select whether or not you want to display the article's publication date.</li>
-                                            <li>Add open link: Now you can select if the links open in a new window.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_2_2"  class="section-block">
-                                        <h3 class="block-title">Version 1.2.2 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Nov 5th, 2017</span>
-                                        <ul>
-                                            <li>Fixed several issues</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_2_3"  class="section-block">
-                                        <h3 class="block-title">Version 1.2.3 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Nov 10th, 2017</span>
-                                        <ul>
-                                            <li>Fixed issue with Bootstrap 2.3.2 version</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_3_0"  class="section-block">
-                                        <h3 class="block-title">Version 1.3.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Nov 27th, 2017</span>
-                                        <ul>
-                                            <li>UiKit 3 Layout support. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/5" target="_blank">Pull Request</a></li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_4_0"  class="section-block">
-                                        <h3 class="block-title">Version 1.4.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Jan 21th, 2018</span>
-                                        <ul>
-                                            <li>Add show category: Now you can now select whether or not you want to display the article's category.</li>
-                                            <li>Ordering articles by Pubish date, Title or Hits.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_4_1"  class="section-block">
-                                        <h3 class="block-title">Version 1.4.1 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Jan 31th, 2018</span>
-                                        <ul>
-                                            <li>Ordering articles Randomly.</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_4_2"  class="section-block">
-                                        <h3 class="block-title">Version 1.4.2 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Jun 7th, 2018</span>
-                                        <ul>
-                                            <li>Ordering articles by "Order of articles".</li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_4_3"  class="section-block">
-                                        <h3 class="block-title">Version 1.4.3 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: May 5th, 2019</span>
-                                        <ul>
-                                            <li>Show only in article view. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/9" target="_blank">Pull Request</a></li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_4_4"  class="section-block">
-                                        <h3 class="block-title">Version 1.4.4 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Oct 13th, 2019</span>
-                                        <ul>
-                                            <li>Show only articles in the same category as the current article. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/10" target="_blank">Pull Request</a></li>
-                                        </ul>
-                                    </div>
-                                    <div id="version1_5_0"  class="section-block">
-                                        <h3 class="block-title">Version 1.5.0 <span title="Version" class="label label-success">stable</span></h3>
-                                        <span class="badge">Release date: Apr 14th, 2020</span>
-                                        <ul>
-                                            <li>Add Slide template for Bootstrap 4.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </section>
-                            <section id="screenshots-section" class="doc-section">
-                                <h2 class="section-title">Screenshots</h2>
-                                <div class="section-block">
-                                    <div id="configuration"  class="section-block">
-                                        <h3 class="block-title">Configuration</h3>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>Configuration > Basic</h6>
-                                                <p>Back</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_configuration_basic.png" data-title="Back - Configuration > Basic" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_configuration_basic.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_configuration_basic.png" data-title="Back - Configuration > Basic" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div> 
-                                            </div>
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>Configuration > Configuration</h6>
-                                                <p>Back</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_configuration_configuration.png" data-title="Back - Configuration > Configuration" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_configuration_configuration.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_configuration_configuration.png" data-title="Back - Configuration > Configuration" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="bootstrap2"  class="section-block">
-                                        <h3 class="block-title">Bootstrap 2.3.2</h3>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>3 Articles: with image | without "Read more"</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_bootstrap2_01.png" data-title="Front - 3 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_bootstrap2_01.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_bootstrap2_01.png" data-title="Front - 3 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>4 Articles: without image | with "Read more"</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_bootstrap2_02.png" data-title="Front - 4 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_bootstrap2_02.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_bootstrap2_02.png" data-title="Front - 4 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="bootstrap3"  class="section-block">
-                                        <h3 class="block-title">Bootstrap 3</h3>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>4 Articles: with image | with "Read more"</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_bootstrap3_01.png" data-title="Front - 4 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_bootstrap3_01.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_bootstrap3_01.png" data-title="Front - 4 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>4 Articles: without image | with "Read more"</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_bootstrap3_02.png" data-title="Front - 3 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_bootstrap3_02.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_bootstrap3_02.png" data-title="Front - 3 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="uikit"  class="section-block">
-                                        <h3 class="block-title">UiKit</h3>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>4 Articles: with image | with "Read more"</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_uikit_01.png" data-title="Front - 4 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_uikit_01.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_uikit_01.png" data-title="Front - 4 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-12 col-sm-12">
-                                                <h6>3 Articles: with image | without content</h6>
-                                                <p>Front</p>
-                                                <div class="screenshot-holder">
-                                                    <a href="assets/images/articles_thumbnalis_uikit_02.png" data-title="Front - 3 Articles" data-toggle="lightbox"><img class="img-responsive" src="assets/images/articles_thumbnalis_uikit_02.png" alt="screenshot"></a>
-                                                    <a class="mask" href="assets/images/articles_thumbnalis_uikit_02.png" data-title="Front - 3 Articles" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                    <div class="doc-sidebar hidden-xs">
-                        <nav id="doc-nav">
-                            <ul id="doc-menu" class="nav doc-menu" data-spy="affix">
-                                <li><a class="scrollto" href="#description-section">Description</a></li>
-                                <li><a class="scrollto" href="#download-section">Download</a></li>
-                                <li><a class="scrollto" href="#donate-section">Donate</a></li>
-                                <li>
-                                    <a class="scrollto" href="#versions-section">Versions</a>
-                                    <ul class="nav doc-sub-menu">
-                                        <li><a class="scrollto" href="#version1_0">Version 1.0.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_1">Version 1.1.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_2">Version 1.2.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_2_1">Version 1.2.1 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_2_2">Version 1.2.2 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_2_3">Version 1.2.3 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_3_0">Version 1.3.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_4_0">Version 1.4.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_4_1">Version 1.4.1 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_4_2">Version 1.4.2 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_4_3">Version 1.4.3 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_4_4">Version 1.4.4 <span title="Version" class="label label-success">stable</span></a></li>
-                                        <li><a class="scrollto" href="#version1_5_0">Version 1.5.0 <span title="Version" class="label label-success">stable</span></a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a class="scrollto" href="#screenshots-section">Screenshots</a>
-                                    <ul class="nav doc-sub-menu">
-                                        <li><a class="scrollto" href="#configuration">Configuration</a></li>
-                                        <li><a class="scrollto" href="#bootstrap2">Bootstrap 2</a></li>
-                                        <li><a class="scrollto" href="#bootstrap3">Bootstrap 3</a></li>
-                                        <li><a class="scrollto" href="#uikit">UiKit</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>              
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+						<li class="list-inline-item"><a href="https://twitter.com/sergiois"><i class="fab fa-github fa-fw"></i></a></li>
+			            <li class="list-inline-item"><a href="https://github.com/sergiois"><i class="fab fa-twitter fa-fw"></i></a></li>
+		                <li class="list-inline-item"><a href="https://sergioiglesias.net/"><i class="fa fa-eye fa-fw"></i></a></li>
+		            </ul>
+		            <a href="https://sergioiglesias.net/contacto" class="btn btn-primary d-lg-flex"><i class="fa fa-envelope"></i><span class="d-none"> Contact</span></a>
+	            </div>
             </div>
         </div>
-        <div id="promo-block" class="promo-block promo-block-2">
-            <div class="container min">
-                <div class="promo-block-inner">
-                    <div class="row">
-                        <div class="figure-holder col-md-2 col-sm-2 col-xs-12">
-                            <div class="figure-holder-inner">
-                                <a href="https://sergioiglesias.net" target="_blank"><img class="img-responsive" src="assets/images/sergiois.jpg" alt="Sergio Iglesias"></a>
-                                <a class="mask" href="https://sergioiglesias.net" target="_blank"><i class="icon fa fa-joomla pink"></i></a>
-                            </div>
-                        </div>
-                        <div class="content-holder col-md-10 col-sm-10 col-xs-12">
-                            <div class="content-holder-inner">
-                                <div class="desc">
-                                    <h4 class="content-title"><strong>Sergio Iglesias :: @sergiois</strong></h4>
-                                    <p>Joomla! Consultant | Backend & Frontend Developer | Joomla! Training (Custom and Online Courses).</p>
-                                    <ul>
-                                        <li>Custom Extensions Joomla!</li>
-                                        <li>Custom Templates Joomla!</li>
-                                        <li>Custom Website Development</li>
-                                    </ul>
-                                    <p>If you want to know more about me you can start by my personal website: <a href="https://sergioiglesias.net" target="_blank">sergioiglesias.net</a></p>
-                                    <p>If you want to help me with a donation, click on the following link: <a href="https://www.paypal.me/sergiois/5" target="_blank">donate 5€</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-        </div>
+    </header>
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Description</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Installation and usage</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Download</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Donate</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#versions"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Versions</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_0_0">Version 1.0.0</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_1_0">Version 1.1.0</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_2_0">Version 1.2.0</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_2_1">Version 1.2.1</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_2_2">Version 1.2.2</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_2_3">Version 1.2.3</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_3_0">Version 1.3.0</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_4_0">Version 1.4.0</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_4_1">Version 1.4.1</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_4_2">Version 1.4.2</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_4_3">Version 1.4.3</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_4_4">Version 1.4.4</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#version1_5_0">Version 1.5.0</a></li>
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#related"><span class="theme-icon-holder mr-2"><i class="fas fa-heart"></i></span>Related</a></li>
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#developer"><span class="theme-icon-holder mr-2"><i class="fas fa-user-cog"></i></span>Developer</a></li>
+			    </ul>
+		    </nav>
+	    </div>
+	    <div class="docs-content">
+		    <div class="container">
+			    <article class="docs-article" id="section-1">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">
+							<span class="theme-icon-holder card-icon-holder mr-2">
+								<i class="fa fa-columns"></i>
+							</span>
+							Articles Thumbnails
+						</h1>
+						<p><small>Stable version: 1.5.0<br>Last updated: April 14th, 2020</small></p>
+						<div class="trophies includes mb-3">
+							<span title="Joomla! 3.x" class="badge badge-30">3</span> -
+							<span title="Module" class="badge badge-mod">m</span>
+						</div>
+					    <section class="docs-intro">
+							<p>Articles Thumbnails Module show articles of Joomla in a thumbnail format.</p>
+							<div class="row">
+								<div class="col-md-6">
+									<figure class="figure docs-figure py-3">
+										<img class="figure-img img-fluid shadow rounded" src="assets/images/articles_thumbnalis_configuration_basic.png" alt="Articles Thumbnails">
+									</figure>
+								</div>
+								<div class="col-md-6">
+									<figure class="figure docs-figure py-3">
+										<img class="figure-img img-fluid shadow rounded" src="assets/images/articles_thumbnalis_configuration_configuration.png" alt="Articles Thumbnails">
+									</figure>
+								</div>
+							</div>
+						</section>
+				    </header>
+				    <section class="docs-section" id="item-1-1">
+						<h2 class="section-heading">Installation and usage</h2>
+						<ul>
+							<li>Install the module using Joomla! Extension Manager</li>
+						</ul>
+						<p>You can configure the module with the following options:</p>
+						<ul>
+							<li>Select Articles from a specific Category or a set of Categories. If no selection will show all categories as default.</li>
+							<li>Select number of articles to shown.</li>
+							<li>Show or hide articles designated as Featured.</li>
+							<li>Select frontend framework.</li>
+							<li>Show or hide title of articles and if you want it to have a link.</li>
+							<li>Show or hide publish date.</li>
+							<li>Show or hide content (introtext or a part of content).</li>
+							<li>Show or hide image of articles and if you want it to have a link.</li>
+							<li>Show or hide button of "Read more" and the text of de button.</li>
+							<li>Open link in a new window.</li>
+							<li>Show or hide category</li>
+							<li>Ordering articles by Pubish date, Title or Hits.</li>
+							<li>Ordering articles by Randomly.</li>
+							<li>Ordering articles by Order of articles.</li>
+							<li>Show only articles in the same category as the current article</li>
+							<li>Add Slide template for Bootstrap 4</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="item-1-2">
+						<h2 class="section-heading">Download</h2>
+						<div class="section-block">
+							<a href="https://github.com/sergiois/mod_articles_thumbnails/archive/master.zip" class="btn btn-primary" target="_blank"><i class="fa fa-download"></i> Download<span class="hidden-xs"> Plugin</span></a>
+							<a href="https://github.com/sergiois/mod_articles_thumbnails" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> <span class="hidden-xs">View on </span>GitHub</a>
+							<a href="https://extensions.joomla.org/extensions/extension/news-display/articles-display/articles-thumbnails/" class="btn btn-success" target="_blank"><i class="fab fa-joomla"></i> <span class="hidden-xs">Vote in </span>JED</a>
+						</div>
+					</section>
+					<section class="docs-section" id="item-1-3">
+						<h2 class="section-heading">Donate</h2>
+						<div class="section-block">
+							<p>All received donations will be used on open source development.</p>
+							<p>The price of a cup of coffe is all we need.</p>
+							<a href="https://www.paypal.me/sergiois/5" class="btn btn-warning" target="_blank"><i class="fab fa-paypal"></i> Donate<span class="hidden-xs"> 5€</span></a>
+						</div>
+					</section>
+			    </article>
+			    
+			    <article class="docs-article" id="versions">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Versions</h1>
+				    </header>
+				    <section class="docs-section" id="version1_0_0">
+						<h2 class="section-heading">Version 1.0.0</h2>
+						<p>Version 1.0.0 of the module is compatible with the following Frontend frameworks:</p>
+						<ul>
+							<li>Integration with <a href="http://getbootstrap.com/2.3.2/" target="_blank">Bootstrap 2.3.2 Framework</a>. The same version on which Joomla 3.x version is based.</li>
+                            <li>Integration with <a href="http://getbootstrap.com/" target="_blank">Bootstrap 3 Framework</a>. The same version on which most of the Joomla Template Frameworks are based.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_1_0">
+						<h2 class="section-heading">Version 1.1.0</h2>
+						<ul>
+							<li>Integration with <a href="https://getuikit.com/" target="_blank">UiKit Framework</a>.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_2_0">
+						<h2 class="section-heading">Version 1.2.0</h2>
+						<ul>
+							<li>Add Update Servers: Now you will be informed from the back of Joomla when there is a new update.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_2_1">
+						<h2 class="section-heading">Version 1.2.1</h2>
+						<p><span class="badge badge-info">Release date: May 25th, 2017</span></p>
+						<ul>
+							<li>Add show date: Now you can now select whether or not you want to display the article's publication date.</li>
+                            <li>Add open link: Now you can select if the links open in a new window.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_2_2">
+						<h2 class="section-heading">Version 1.2.2</h2>
+						<p><span class="badge badge-info">Release date: November 5th, 2017</span></p>
+						<ul>
+							<li>Fixed several issues</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_2_3">
+						<h2 class="section-heading">Version 1.2.3</h2>
+						<p><span class="badge badge-info">Release date: November 10th, 2017</span></p>
+						<ul>
+							<li>Fixed issue with Bootstrap 2.3.2 version</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_3_0">
+						<h2 class="section-heading">Version 1.3.0</h2>
+						<p><span class="badge badge-info">Release date: November 27th, 2017</span></p>
+						<ul>
+							<li>UiKit 3 Layout support. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/5" target="_blank">Pull Request</a></li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_4_0">
+						<h2 class="section-heading">Version 1.4.0</h2>
+						<p><span class="badge badge-info">Release date: January 21th, 2018</span></p>
+						<ul>
+							<li>Add show category: Now you can now select whether or not you want to display the article's category.</li>
+                            <li>Ordering articles by Pubish date, Title or Hits.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_4_1">
+						<h2 class="section-heading">Version 1.4.1</h2>
+						<p><span class="badge badge-info">Release date: January 31th, 2018</span></p>
+						<ul>
+							<li>Ordering articles Randomly.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_4_2">
+						<h2 class="section-heading">Version 1.4.2</h2>
+						<p><span class="badge badge-info">Release date: June 7th, 2018</span></p>
+						<ul>
+							<li>Ordering articles by "Order of articles".</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_4_3">
+						<h2 class="section-heading">Version 1.4.3</h2>
+						<p><span class="badge badge-info">Release date: May 5th, 2019</span></p>
+						<ul>
+							<li>Show only in article view. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/9" target="_blank">Pull Request</a>.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_4_4">
+						<h2 class="section-heading">Version 1.4.4</h2>
+						<p><span class="badge badge-info">Release date: October 13th, 2019</span></p>
+						<ul>
+							<li>Show only articles in the same category as the current article. Thanks to <a href="https://github.com/carcam" target="_blank">Cárlos Cámara</a> for his <a href="https://github.com/sergiois/mod_articles_thumbnails/pull/10" target="_blank">Pull Request</a>.</li>
+						</ul>
+					</section>
+					<section class="docs-section" id="version1_5_0">
+						<h2 class="section-heading">Version 1.5.0</h2>
+						<p><span class="badge badge-info">Release date: April 14th, 2020</span></p>
+						<ul>
+							<li>Add Slide template for Bootstrap 4.</li>
+						</ul>
+					</section>
+				</article>
+				
+				<article class="docs-article" id="related">
+					<header class="docs-header">
+					    <h1 class="docs-heading">Related</h1>
+				    </header>
+					<div class="docs-overview py-3">
+						<div class="row justify-content-center">
+							<div class="col-12 col-lg-4 py-3 filter module">
+								<div class="card shadow-sm">
+									<div class="card-body">
+										<h5 class="card-title mb-3">
+											<span class="theme-icon-holder card-icon-holder mr-2">
+												<i class="fa fa-columns"></i>
+											</span>
+											<span class="card-title-text">Custom Thumbnails</span>
+										</h5>
+										<div class="card-text">
+											Joomla Module: HTML content in Bootstrap thumbnails format.
+										</div>
+										<div class="trophies includes">
+											<span title="Joomla! 3.x" class="badge badge-30">3</span> -
+											<span title="Module" class="badge badge-mod">m</span>
+										</div>
+										<a class="card-link-mask" href="custom-thumbnails.html"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-4 py-3 filter module sisfeature">
+								<div class="card shadow-sm">
+									<div class="card-body">
+										<h5 class="card-title mb-3">
+											<span class="theme-icon-holder card-icon-holder mr-2">
+												<i class="fa fa-image"></i>
+											</span>
+											<span class="card-title-text">SIS Carousel</span>
+										</h5>
+										<div class="card-text">
+											Joomla Module: Custom Image Carousel in Bootstrap 3 and 4.
+										</div>
+										<div class="trophies includes">
+											<span title="Joomla! 3.x" class="badge badge-30">3</span> -
+											<span title="Module" class="badge badge-mod">m</span>
+										</div>
+										<a class="card-link-mask" href="sis-carousel.html"></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-lg-4 py-3 filter module sisfeature">
+								<div class="card shadow-sm">
+									<div class="card-body">
+										<h5 class="card-title mb-3">
+											<span class="theme-icon-holder card-icon-holder mr-2">
+												<i class="fa fa-life-ring"></i>
+											</span>
+											<span class="card-title-text">Articles FAQs</span>
+										</h5>
+										<div class="card-text">
+											Joomla Module: Joomla Articles in Bootstrap accordion format.
+										</div>
+										<div class="trophies includes">
+											<span title="Joomla! 3.x" class="badge badge-30">3</span> -
+											<span title="Module" class="badge badge-mod">m</span>
+										</div>
+										<a class="card-link-mask" href="articles-faq.html"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</article>
+
+			    <section id="developer" class="docs-article cta-section text-center py-5 position-relative">
+					<div class="container">
+						<a href="https://sergioiglesias.net" target="_blank"><img class="img-responsive" src="assets/images/sergiois.jpg" alt="Sergio Iglesias"></a>
+						<h3 class="mb-2 mb-3">Sergio Iglesias</h3>
+						<div class="section-intro mb-3 single-col-max mx-auto">Joomla! Consultant |  Back end & Front end Developer<br>Joomla! Training (Custom and Online Courses)</div>
+						<div class="pt-3 text-center">
+							<a class="btn btn-primary" href="https://sergioiglesias.net" target="_blank">Personal Web<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+							<a class="btn btn-warning" href="https://www.paypal.me/sergiois/5" target="_blank"><i class="fas fa-beer ml-2"></i> Buy me a beer</a>
+						</div>
+					</div>
+				</section>
+				
+				<footer class="footer">
+			
+					<div class="footer-bottom text-center py-5">
+						
+						<ul class="social-list list-unstyled pb-4 mb-0">
+							<li class="list-inline-item"><a href="https://twitter.com/sergiois"><i class="fab fa-github fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://github.com/sergiois"><i class="fab fa-twitter fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="https://sergioiglesias.net/"><i class="fa fa-eye fa-fw"></i></a></li>
+						</ul>
+						
+						<small class="copyright">Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers<br>Redesign by <a href="https://sergioiglesias.net/" target="_blank">Sergio Iglesias</a> for <i class="fab fa-joomla"></i> Free Joomla! Extensions</small>
+						
+						
+					</div>
+					
+				</footer>
+		    </div> 
+	    </div>
     </div>
+       
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
     
-    <footer class="footer text-center">
-        <div class="container">
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers<br>Redesign by <a href="https://sergioiglesias.net/" target="_blank">Sergio Iglesias</a> for <i class="fa fa-joomla text-white"></i> Free Joomla! Extensions</small>
-        </div>
-    </footer>
-    
-     
-    <!-- Main Javascript -->
-    <script async src='https://pepper.swat.io/embed.js?eyJwb3NpdGlvbiI6InJpZ2h0IiwiY29sb3IiOiJmOWE1NDEiLCJjdXN0b21Db2xvciI6dHJ1ZSwiaWNvbiI6ImJ1YmJsZSIsInByb25vdW4iOiJtZSIsImxhbmd1YWdlIjoiZW4iLCJicmFuZGVkIjp0cnVlLCJpbnRyb1RleHQiOm51bGwsImNoYW5uZWxzIjpbWyJ0d2l0dGVyIiwic2VyZ2lvaXMiLCJzb2NpYWwiXSxbImxpbmtlZGluIiwiaHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2luL3Nlcmdpb2lzIiwic29jaWFsIl0sWyJnaXRodWIiLCJodHRwczovL2dpdGh1Yi5jb20vc2VyZ2lvaXMiLCJzb2NpYWwiXSxbInBob25lIiwiKzM0IDYzMCA2NiAwOSAwNiIsImNsYXNzaWMiXSxbImVtYWlsIiwiaW5mb0BzZXJnaW9pZ2xlc2lhcy5uZXQiLCJjbGFzc2ljIl1dfQ=='></script>      
-    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>                                                                
-    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    
+    <script src="assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/docs.js"></script> 
+
 </body>
 </html> 
 

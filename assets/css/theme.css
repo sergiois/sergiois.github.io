@@ -9548,6 +9548,7 @@ a.theme-link:hover {
     }
 }
 .img-responsive{
+    background: #fff;
     border: 5px solid #fff;
     border-radius: 50%;
     width: 150px;

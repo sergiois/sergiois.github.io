@@ -6,7 +6,7 @@
 		<element>cfgist</element>
 		<type>plugin</type>
 		<folder>fields</folder>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<client>site</client>
 		<infourl title="CF Instagram">https://sergiois.github.io/cfgist.html</infourl>
 		<downloads>

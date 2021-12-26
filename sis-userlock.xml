@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>SIS UserLock</name>
+		<description>Joomla System plugin to block the user if does not fill in the indicated user custom fields</description>
+		<element>sisuserlock</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<version>1.0.0</version>
+		<client>site</client>
+		<infourl title="SIS UserLock">https://sergiois.github.io/sis-userlock.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sergiois/sis-userlock/archive/master.zip</downloadurl>
+		</downloads>
+        <tags>
+			<tag>stable</tag>
+		</tags>
+        <maintainer>Sergio Iglesias</maintainer>
+        <maintainerurl>https://sergioiglesias.net</maintainerurl>
+		<targetplatform name="joomla" version="((3\.(6|7|8|9|10))|((4\.(0|1|2|3|4|5)))"/> 
+	</update>
+</updates>

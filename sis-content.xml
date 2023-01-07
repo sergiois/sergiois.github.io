@@ -6,7 +6,7 @@
 		<element>sis_content</element>
 		<type>plugin</type>
 		<folder>system</folder>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<client>site</client>
 		<infourl title="SIS Theme Color">https://sergiois.github.io/sis-content.html</infourl>
 		<downloads>

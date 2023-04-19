@@ -2,10 +2,10 @@
 <updates>
 	<update>
 		<name>SIS Carousel</name>
-		<description>Custom Image Carousel in Bootstrap 3 and 4</description>
+		<description>Custom Image Carousel in Bootstrap 3, 4 and 5</description>
 		<element>mod_sis_carousel</element>
 		<type>module</type>
-		<version>1.2.0</version>
+		<version>1.2.1</version>
 		<client>site</client>
 		<infourl title="Articles Thumbnails">https://sergiois.github.io/sis_carousel.html</infourl>
 		<downloads>

@@ -5,7 +5,7 @@
 		<description>Articles FAQ Module</description>
 		<element>mod_articles_faq</element>
 		<type>module</type>
-		<version>1.4.1</version>
+		<version>1.4.2</version>
 		<client>site</client>
 		<infourl title="Articles FAQ">https://sergiois.github.io/articles-faq.html</infourl>
 		<downloads>

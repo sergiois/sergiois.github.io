@@ -7,7 +7,7 @@
 		<type>module</type>
 		<version>1.2.1</version>
 		<client>site</client>
-		<infourl title="Articles Thumbnails">https://sergiois.github.io/sis_carousel.html</infourl>
+		<infourl title="SIS Carousel">https://sergiois.github.io/sis-carousel.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/sergiois/mod_sis_carousel/archive/master.zip</downloadurl>
 		</downloads>

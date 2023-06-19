@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>SIS Articles</name>
+		<description>Articles Joomla in Bootstrap card format</description>
+		<element>mod_sis_articles</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<client>site</client>
+		<infourl title="SIS Articles">https://sergiois.github.io/sis-articles.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sergiois/mod_sis_articles/archive/master.zip</downloadurl>
+		</downloads>
+        <tags>
+			<tag>stable</tag>
+		</tags>
+        <maintainer>Sergio Iglesias</maintainer>
+        <maintainerurl>https://sergioiglesias.net</maintainerurl>
+		<targetplatform name="joomla" version="4"/>
+	</update>
+</updates>

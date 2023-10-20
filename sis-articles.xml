@@ -5,7 +5,7 @@
 		<description>Articles Joomla in Bootstrap card format</description>
 		<element>mod_sis_articles</element>
 		<type>module</type>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<client>site</client>
 		<infourl title="SIS Articles">https://sergiois.github.io/sis-articles.html</infourl>
 		<downloads>

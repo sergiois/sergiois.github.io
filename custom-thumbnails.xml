@@ -5,7 +5,7 @@
 		<description>Custom Thumbnails Module</description>
 		<element>mod_custom_thumbnails</element>
 		<type>module</type>
-		<version>1.2.0</version>
+		<version>1.2.1</version>
 		<client>site</client>
 		<infourl title="Custom Thumbnails">https://sergiois.github.io/custom-thumbnails.html</infourl>
 		<downloads>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>SIS DarkMode</name>
+		<description>Module to enable and disable dark mode in Joomla 5</description>
+		<element>mod_sis_darkmode</element>
+		<type>module</type>
+		<version>1.0.0</version>
+		<client>site</client>
+		<infourl title="SIS DarkMode">https://sergiois.github.io/sis-darkmode.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sergiois/mod_sis_darkmode/archive/master.zip</downloadurl>
+		</downloads>
+        <tags>
+			<tag>stable</tag>
+		</tags>
+        <maintainer>Sergio Iglesias</maintainer>
+        <maintainerurl>https://sergioiglesias.net</maintainerurl>
+		<targetplatform name="joomla" version="5"/>
+	</update>
+</updates>

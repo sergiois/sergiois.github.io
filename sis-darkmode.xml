@@ -5,7 +5,7 @@
 		<description>Module to enable and disable dark mode in Joomla 5</description>
 		<element>mod_sis_darkmode</element>
 		<type>module</type>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<client>site</client>
 		<infourl title="SIS DarkMode">https://sergiois.github.io/sis-darkmode.html</infourl>
 		<downloads>

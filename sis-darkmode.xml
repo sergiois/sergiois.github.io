@@ -16,6 +16,6 @@
 		</tags>
         <maintainer>Sergio Iglesias</maintainer>
         <maintainerurl>https://sergioiglesias.net</maintainerurl>
-		<targetplatform name="joomla" version="5"/>
+		<targetplatform name="joomla" version="(5\.(0|1|2|3|4|5))"/>
 	</update>
 </updates>
